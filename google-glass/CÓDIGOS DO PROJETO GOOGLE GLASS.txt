@@ -1,0 +1,1043 @@
+CÓDIGOS DO PROJETO GOOGLE GLASS
+
+1. Página Principal
+1.1. HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Tudo sobre o Google Glass </title>
+		<link rel="stylesheet" type="text/css" href="_estilos.css"/>
+	</head>
+	
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+	
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+			
+				<img id="icone" src="_imagens/glass-oculos-preto-peq.png"/>
+			
+				<nav id="menu"> 
+					<h1>Menu Principal</h1>
+					<ul type="disc"> 
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="google-glass.html"> Home </a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html"> Especificações </a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html"> Fotos </a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html"> Multimídia </a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html"> Fale conosco </a></li>
+					</ul>
+				</nav>
+			</header>
+			
+	<section id="corpo">
+		<hgroup>
+			<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+					<h3>Tecnologia > Inovações</h3>
+					<h1>Saiba tudo sobre o Google Glass</h1>
+					<h2>por Carolaine Vasconcelos</h2>
+					<h3 class="direita">Atualizado em 23 de Abril de 2023</h3>
+				</header>
+
+			<h2>O que é</h2>
+			<p> O <b>Google Glass</b> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="http://glass.google.com" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;conferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+
+			<figure class="foto-legenda">
+				<img src="_imagens/glass-quadro-homem-mulher.jpg"/>
+				<figcaption>
+					<h3> Google Glass </h3>
+					<p> Uma nova maneira de ver o mundo. </p>
+				</figcaption>
+			</figure>
+
+			<h2>Data de lançamento</h2>
+			<p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
+
+			<h2>Especificações Técnicas</h2>
+				<table id="tabela1">
+				<caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption>
+					<tr><td class="ce"> Tela </td><td class="cd"> Resolução equivalente a tela de 25" </td></tr>
+					<tr><td rowspan="2" class="ce"> Camera </td><td class="cd">  5MP para fotos  </td></tr>
+					<tr><td class="cd"> 720p para vídeos </td></tr>
+					<tr><td rowspan="2" class="ce"> Conectividade </td><td class="cd">  Wi-Fi </td></tr>
+					<tr><td class="cd"> Bluetooth </td></tr>
+					<tr><td class="ce"> Memória Interna </td><td class="cd">  12GB </td></tr>
+				</table>
+				
+			<h2>Como funciona</h2>
+			<p>De acordo com fontes próximas do Google, os óculos vão contar com uma 
+			pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do 
+			usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como 
+			selecionar opções com o movimento da cabeça</p>
+
+			<h2>O que você pode fazer com o Google Glasses</h2>
+			<p>O vídeo de divulgação do Google mostra que você pode se transformar em uma 
+			espécie de “super-<wbr/>humano”, já que o aparelho pode indicar a quantos metros 
+			você está de seu destino, se o metrô está aberto ou fechado, mostrar o 
+			clima, agenda e até mesmo permitir que você marque encontros apenas com 
+			comandos de voz.</p>
+
+			<div id="multi-principal">
+				<video id="video1" controls="controls" poster="_imagens/video-mini01.jpg">
+					<source src="_media/one-day.mp4" type="video/mp4"/>
+					Não foi possivel carregar o vídeo.
+				</video>
+			</div>
+		<br/>
+
+		</article>
+		</section>
+		<aside id="lateral">
+
+		<h1>Outras Notícias</h1>
+		<h2>Vídeo mais recente</h2>
+
+		<div id="multi-principal">
+				<video id="video2" controls="controls" poster="_imagens/video-mini02.jpg">
+					<source src="_media/how-it-feels.mp4" type="video/mp4"/>
+					Não foi possivel carregar o vídeo.
+				</video>
+			</div>
+
+		<h2>Novidades no Glass</h2>
+		<p>O Google enfim revelou as especificações completas do Google Glass, e com 
+		ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um 
+		sistema de áudio baseado na transdução por condução. Através das hastes dos 
+		óculos, o som será transmitido para o ouvido do usuário por meio de 
+		microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de 
+		alto-falante.</p>
+
+		<p>Além da surpresa do áudio, a tela montada a frente do olho do usuário 
+		também chamou atenção. Serão 640 x 360 pixels de resolução que, em 
+		proporção, equivaleria a um monitor de 25 polegadas de alta definição 
+		colocado a 2,5 metros de distância do espectador.</p>
+
+</hgroup>
+</aside>
+
+<footer id="rodape">
+<p>Copyright &copy; 2023 - by Carolaine Vasconcelos</p>
+</footer>
+
+	</div>
+</body>
+</html>
+
+1.2. CSS
+@charset "UTF-8";
+
+body {
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+}
+
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Interface*/
+
+div#interface {
+    width: 1200px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+/*Divisao de pagina*/
+
+section#corpo {
+    display: block;
+    width: 620px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+article#noticia-principal h2 {
+    font-size: 12pt;
+    color: #363636;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.direita {
+    text-align: right;
+}
+    
+aside#lateral {
+    display: block;
+    width: 530px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 35px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5)
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/*Formatação de titulos*/
+
+header#cabecalho-artigo h1 {
+    font-family: arial, sans-serif;
+    font-size: 20pt;
+    color: #363636;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12pt;
+    color: #363636;
+    background-color: #ffffff;
+}
+
+aside#lateral h1 {
+    font-family: arial, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 5px;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/*Posicionamento do oculos*/
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1090px;
+    top: 60px;
+}
+
+/*Cabeçalho*/
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(_imagens/glass-logo-peq.jpg) no-repeat 0px 85px;
+}
+
+header#cabecalho h1 {
+    font-family: arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: arial, sans-serif;
+    font-size: 15pt;
+    color: #888888;
+}
+
+/*Formatacao de imagens com legendas*/
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/*Menu flutuante*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 610px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+/*Tabela*/
+
+table#tabela1 {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela1 td {
+    border: 1px solid #606060;
+    padding: 10px;
+    
+}
+
+table#tabela1 td.ce {
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: center;
+}
+
+table#tabela1 td.cd {
+    background-color: #cecece;
+}
+
+table#tabela1 caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabela1 caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+-------------------------------------------//--------------------------------------------
+2. Especificações
+2.1. HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Tudo sobre o Google Glass </title>
+		<link rel="stylesheet" type="text/css" href="_estilos.css"/>
+		<link rel="stylesheet" type="text/css" href="_specs.css"/>
+	</head>
+	
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+	
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+			
+				<img id="icone" src="_imagens/especificacoes.png" width="210"/>
+			
+				<nav id="menu"> 
+					<h1>Menu Principal</h1>
+					<ul type="disc"> 
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="google-glass.html"> Home </a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html"> Especificações </a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos.html"> Fotos </a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia.html"> Multimídia </a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco.html"> Fale conosco </a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<section id="corpo-full"> 
+			<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+					<h3>Glass > Especificações</h3>
+					<h1>Raio-X no Google Glass</h1>
+					<h2>por Carolaine Vasconcelos</h2>
+					<h3 class="direita">Atualizado em 23 de Abril de 2023</h3>
+				</header>
+				
+				<p> Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações. </p>
+
+				<section id="conteudo">
+					<img src="_imagens/glass-esquema-marcado.jpg" usemap="#mapa">
+					
+					<map name="mapa">
+						<area shape="rect" coords="179,202,270,260" href="specs-2.html#tela" target="janela"/>
+						<area shape="circle" coords="158,243,12" href="specs-2.html#camera" target="janela"/>
+						<area shape="circle" coords="73,52,12" href="specs-2.html#sensor" target="janela"/>
+						<area shape="poly" coords="28,143,83,216,84,249,27,169" href="specs-2.html#bateria" target="janela"/>
+					</map>
+					
+					<iframe src="specs-2.html" name="janela" id="frame-specs">
+				</section>
+			</article>
+		</section>
+
+		
+
+		<footer id="rodape">
+			<p>Copyright &copy; 2023 - by Carolaine Vasconcelos</p>
+		</footer>
+
+			</div>
+	</body>
+</html>
+
+2.2. CSS
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#frame-specs {
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+    padding-left: 95px;
+}
+ 
+iframe#frame-specs::-webkit-scrollbar {
+    display: none;
+}
+
+2.3. Especificações HTML + CSS
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="_estilos.css"/>
+	</head>
+	
+	<style>
+		body {
+			font-family: arial, sans-serif;
+			font-size: 10pt;
+			background-color: white;
+		}
+
+		p {
+			text-align: justify;
+			text-indent: 20px;
+		}
+
+		article h1 {
+			font-size: 15pt;
+			color: white;
+			background-color: rgba(0,0,0,.3);
+			padding: 5px;
+			margin: 0px;
+		}
+
+		article h2 {
+			font-size: 13pt;
+			color: #888888;
+			margin: 0px;
+		}
+		
+		article {
+			margin-bottom: 800px;
+		}
+		
+		img.direita {
+			display: block;
+			float: right;
+			margin: 5px;
+		}
+	</style>
+	
+	<body>
+		<article id="topo">
+			<header>
+				<h2> Clique sobre as áreas destacadas em vermelho </h2>
+			</header>
+				
+			<img src="_imagens/mao.png">
+		</article> 
+
+		<article id="tela">
+			<header>
+				<h1> Tela </h1> 
+				<h2> Como o mundo vai aparecer </h2>
+			</header>
+			<p> De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça.</p> 
+				
+			<img src="_imagens/det-tela.jpg" width="360"> 
+		</article>
+
+		<article id="camera">
+			<header>
+				<h1> Câmera </h1> 
+				<h2> Filme e fotografe a qualquer momento </h2>
+			</header>
+				
+			<img src="_imagens/det-camera.jpg" class="direita"> 
+			<p> Com o Google Glass será possível tirar fotos com até 5 megapixels e gravar vídeos com 720 linhas de resolução. Os primeiros vídeos e fotos capturados com o aparelho já começaram a circular pela rede, mas até agora ninguém tem muitas informações técnicas. </p>
+		</article> 
+			
+		<article id="sensor"> 
+			<header>
+				<h1> Sensores </h1> 
+				<h2> A sensibilidade de um simples óculos </h2>
+			</header>
+			<p> Quem pensa que para comandar o Google Glass vai precisar de teclado e mouse, se engana redondamente. O dispositivo vem com vários tipos de sensores e microfones embutidos. Assim, para dar um comando, basta falar ou passar o dedo na lateral do óculos. </p>
+			
+			<img src="_imagens/det-touch.jpg" width="360">
+		</article> 
+			
+		<article id="bateria">
+			<header>
+				<h1> Bateria e Gadgets </h1> 
+				<h2> Quais são os dispositivos que complementam o Glass </h2>
+			</header>
+				
+			<img src="_imagens/det-bateria.jpg" class="direita"> 
+			<p> Segundo a própria Google, o Glass virá com uma bateria que tem autonomia suficiente para durar um dia inteiro. Apenas algumas atividades como videoconferências e longas filmagens vão exigir um pouco mais. Além disso ele vem com WiFi, Bluetooth, 3G/4G e muito mais. </p>
+		</article>
+	</body>
+</html>
+------------------------------------------//-----------------------------------------------
+3. Fotos
+3.1. HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Tudo sobre o Google Glass </title>
+		<link rel="stylesheet" type="text/css" href="_estilos.css"/>
+		<link rel="stylesheet" type="text/css" href="_foto.css"/>
+	</head>
+	
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+	
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+			
+				<img id="icone" src="_imagens/fotos.png"/>
+			
+				<nav id="menu"> 
+					<h1>Menu Principal</h1>
+					<ul type="disc"> 
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="google-glass.html"> Home </a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="specs.html"> Especificações </a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fotos.html"> Fotos </a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="multimidia.html"> Multimídia </a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fale-conosco.html"> Fale conosco </a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section id="corpo-full"> 
+				<article id="noticia-principal">
+					<header id="cabecalho-artigo">
+						<h3>Glass > Fotos</h3>
+						<h1>Galeria de Imagens do Google Glass</h1>
+						<h2>por Carolaine Vasconcelos</h2>
+						<h3 class="direita">Atualizado em 23 de Abril de 2023</h3>
+					</header>		
+
+					<p> Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição. </p>
+
+			<ul id="album-fotos">
+				<li id="foto-1"><span> Agenda e lembretes </span></li>
+				<li id="foto-2"><span> Sergey Brin usando o Glass </span></li>
+				<li id="foto-3"><span> Leve e compacto </span></li>
+				<li id="foto-4"><span> Sensação de uma tela de 50" </span></li>
+				<li id="foto-5"><span> Vários tipos de lente </span></li>
+				<li id="foto-6"><span> Informações importantes </span></li>
+			</ul>
+
+</article>
+
+		</section>
+
+		<footer id="rodape">
+			<p>Copyright &copy; 2023 - by Carolaine Vasconcelos</p>
+		</footer>
+
+			</div>
+	</body>
+</html>
+
+3.2. CSS
+@charset "UTF-8";
+
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos li#foto-1 {
+    background: url('../_imagens/galeria-01.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto-1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-2 {
+    background: url('../_imagens/galeria-02.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto-2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-3 {
+    background: url('../_imagens/galeria-03.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto-3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-4 {
+    background: url('../_imagens/galeria-04.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto-4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-5 {
+    background: url('../_imagens/galeria-05.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto-5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-6 {
+    background: url('../_imagens/galeria-06.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto-6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+----------------------------------------------//------------------------------------------------
+4. Multimidia
+4.1. HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Tudo sobre o Google Glass </title>
+		<link rel="stylesheet" type="text/css" href="_estilos.css"/>
+		<link rel="stylesheet" type="text/css" href="_media.css"/>
+	</head>
+	
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+	
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+			
+				<img id="icone" src="_imagens/multimidia.png"/>
+			
+				<nav id="menu"> 
+					<h1>Menu Principal</h1>
+					<ul type="disc"> 
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="google-glass.html"> Home </a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html"> Especificações </a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html"> Fotos </a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html"> Multimídia </a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html"> Fale conosco </a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<section id="corpo-full"> 
+				<article id="noticia-principal">
+					<header id="cabecalho-artigo">
+						<h3>Glass > Multimídia</h3>
+						<h1>Sons e Vídeos</h1>
+						<h2>por Carolaine Vasconcelos</h2>
+						<h3 class="direita">Atualizado em 23 de Abril de 2023</h3>
+					</header>
+
+			<div id="tv-radio">
+				<audio id="musica" controls="controls">
+					<source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+					Desculpe, não foi possivel carregar o áudio.
+				</audio>
+				<video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+					<source src="_media/getting-started.mp4" type="video/mp4"/>
+					Desculpe, não foi possivel carregar o vídeo.
+				</video>
+			</div>
+
+
+		<footer id="rodape">
+			<p>Copyright &copy; 2023 - by Carolaine Vasconcelos</p>
+		</footer>
+
+			</div>
+	</body>
+<html>
+
+4.2. CSS
+@charset "UTF-8";
+
+div#tv-radio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 490px;
+    width: 300px;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 70px;
+    width: 440px;
+}
+------------------------------------------------//-----------------------------------------
+5. Fale Conosco
+5.1. HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Tudo sobre o Google Glass </title>
+		<link rel="stylesheet" type="text/css" href="_estilos.css"/>
+		<link rel="stylesheet" type="text/css" href="_contato.css"/>
+	</head>
+	
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+	
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+			
+				<img id="icone" src="_imagens/contato.png"/>
+			
+				<nav id="menu"> 
+					<h1>Menu Principal</h1>
+					<ul type="disc"> 
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="google-glass.html"> Home </a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html"> Especificações </a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html"> Fotos </a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html"> Multimídia </a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html"> Fale conosco </a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section id="corpo-full"> 
+				<article id="noticia-principal">
+					<header id="cabecalho-artigo">
+						<h3>Fale Conosco > Contato</h3>
+						<h1>Formulário de Contato</h1>
+						<h2>por Carolaine Vasconcelos</h2>
+						<h3 class="direita">Atualizado em 23 de Abril de 2023</h3>
+					</header>
+					
+			<form method="post"id="contato"  oninput="calc_total();">
+			<fieldset id="usuario">
+				<legend>Identificação do Usuário</legend>
+					<p>Nome: <input type="text" name="tNome" size="20" maxlength="30"  placeholder="Nome completo"></p>
+					<p>Senha: <input type="password" name="tSenha" size="10" maxlength="8" placeholder="Digite a senha"></p>
+					<p>E-mail: <input type="email" name="tEmail" size="20" maxlength="40"  placeholder="Digite seu e-mail"></p>
+					<fieldset>
+						<legend>Sexo:</legend>
+							<input type="radio" name="sexo" id="masc"/><label for="masc"> Masculino </label>
+							<br>
+							<input type="radio" name="sexo" id="fem"/><label for="fem"> Feminino </label>
+					</fieldset>
+					<p> Data de Nascimento: <input type="date" name="nasc"></p>
+			</fieldset>
+
+			<fieldset id="endereco">
+				<legend>Endereço do Usuário</legend>
+					<p>Logradouro: <input type="text" name="rua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av.."/>
+					<p>Número: <input type="number" name="numb" min="0" max="9999"/></p>
+					<p>
+						<label for="estado"> Estado: </label>
+							<select name="estado">
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+					</p>
+					</p> 
+					<p> Cidade: <input type="text" name="cidade" maxlength="40" size="20" placeholder="Sua cidade "/></p> 
+			</fieldset>
+
+			<fieldset id="mensagem">
+				<legend>Mensagem do Usuário</legend>
+					<p>
+						<label for="urg">Grau de Urgência:</label>
+						Mín <input type="range" name="cUrg" id="urg" min="1" max="10"> Máx
+					</p>
+					<p>
+						<label for="msg">Mensagem:</label>
+						<textarea name="cMsg" id="msg" cols="40" rows="5" placeholder="Digite sua mensagem"></textarea>
+					</p>
+			</fieldset>
+
+			<fieldset id="pedido">
+				<legend>Quero um Google Glass</legend>
+					<p>
+						<label for="cPed">Gostaria de adquirir um Google Glass quando disponível: </label>
+						<input type="checkbox" name="ped"/>
+					</p> 
+					<p>
+						<label for="cCor">Cor: </label>
+						<input type="color" name="cor"/>
+					</p> 
+					<p>
+						<label for="cQtd">Quantidade:</label>
+						<input type="number" name="tQtd" id="cQtd" min="0" max="99" value="0"/>
+					</p> 
+					<p>
+						<label for="cTot">Preço Total: R$</label>
+						<input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly/>
+					</p>
+			</fieldset>
+
+		<div id="enviar">
+			<input type="image" name="botao-enviar" src="_imagens/botao-enviar.png">
+		</div>
+		</form>
+
+		<footer id="rodape">
+			<p>Copyright &copy; 2023 - by Carolaine Vasconcelos</p>
+		</footer>
+
+			</div>
+	</body>
+<html>
+
+5.2. CSS
+@charset "UTF-8";
+
+form {
+    width: 600px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255,255,255,.6);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+fieldset#usuario {
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+
+fieldset#endereco {
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+
+fieldset#pedido {
+    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+
+#enviar {
+    text-align: center;
+}
+ 
